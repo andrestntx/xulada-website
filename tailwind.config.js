@@ -25,6 +25,9 @@ module.exports = {
       height: {
         "26": "7rem",
       },
+      backgroundImage: () => ({
+        "covid-family": "url('/assets/couch_family_area.png')",
+      }),
     },
   },
   variants: {},
