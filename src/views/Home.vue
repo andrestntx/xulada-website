@@ -343,9 +343,7 @@
           <template v-slot:content>
             <div class="w-full">
               <div class="text-center text-white">
-                <div
-                  class="mx-10 sm:mx-2 px-2 py-6 bg-xulada-black sm:bg-gray-300 md:bg-gray-600 lg:bg-gray-800 rounded-lg"
-                >
+                <div class="mx-10 sm:mx-2 px-2 py-6 bg-xulada-black rounded-lg">
                   <div class="w-full flex justify-center">
                     <img src="@/assets/enxulada_full_prices.png" alt />
                   </div>
