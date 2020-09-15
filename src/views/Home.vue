@@ -8,7 +8,7 @@
         <img
           src="@/assets/logo_xulada_white.png"
           alt
-          class="object-contain h-26 md:h-32 w-full mb-16"
+          class="object-contain h-26 md:h-32 lg:h-40 mx-auto mb-16"
         />
         <div class="block">
           <div class="flex justify-center mb-8">
@@ -24,7 +24,9 @@
           </div>
         </div>
         <div class="md:block hidden">
-          <button
+          <a
+            href="https://wa.link/m7xb67"
+            target="_blank"
             class="bg-xulada-violete-intese hover:bg-xulada-red-intense text-white py-1 px-2 rounded-lg inline-flex items-center"
           >
             <svg
@@ -37,12 +39,12 @@
               />
             </svg>
             <span>agenda tu enxulada</span>
-          </button>
+          </a>
         </div>
       </div>
       <div class="w-full md:w-7/12">
-        <div class="block mb-5">
-          <img src="@/assets/jaguar_top_blue.png" class="m-auto" alt srcset />
+        <div class="block mb-5 lg:mb-0">
+          <img src="@/assets/jaguar_top_blue.png" class="lg:w-full m-auto" alt srcset />
         </div>
         <div class="block md:hidden">
           <button
@@ -63,7 +65,7 @@
       </div>
     </div>
 
-    <div id="description" class="block pt-5 sm:pt-10 pb-10">
+    <div id="description" class="block pt-5 sm:pt-10 lg:pt-20 pb-10">
       <div class="flex flex-wrap sm:px-20 mb-8">
         <div class="w-full md:h-32 lg:h-40 md:w-1/2 md:border-r-3 border-xulada-violete">
           <div class="flex justify-center md:justify-start lg:justify-center">
@@ -114,7 +116,7 @@
       >
         <vueper-slide>
           <template v-slot:content>
-            <div class="text-white flex flex-wrap p-5 lg:px-2">
+            <div class="text-white flex flex-wrap p-5 md:px-2 lg:px-6">
               <div class="w-full flex justify-center mb-5">
                 <img src="@/assets/left_circle_gear_lever.png" />
               </div>
@@ -132,7 +134,7 @@
         </vueper-slide>
         <vueper-slide>
           <template v-slot:content>
-            <div class="text-white flex flex-wrap p-5 lg:px-2">
+            <div class="text-white flex flex-wrap p-5 md:px-2 lg:px-6">
               <div class="w-full flex justify-center mb-5">
                 <img src="@/assets/center_circle_man_in_a_couch.png" />
               </div>
@@ -152,7 +154,7 @@
         </vueper-slide>
         <vueper-slide>
           <template v-slot:content>
-            <div class="text-white flex flex-wrap p-5 lg:px-2">
+            <div class="text-white flex flex-wrap p-5 md:px-2 lg:px-6">
               <div class="w-full flex justify-center mb-5">
                 <img src="@/assets/rigth_circle_girl_cleaning.png" />
               </div>
@@ -172,7 +174,7 @@
       </vueper-slides>
     </div>
 
-    <div id="details" class="flex flex-wrap px-6 md:px-10 py-10 lg:py-16 lg:px-20">
+    <div id="details" class="flex flex-wrap px-6 md:px-10 py-10 lg:p-20">
       <div class="w-full sm:w-1/2">
         <div class="block mb-6 lg:mb-1">
           <div class="flex justify-center sm:justify-start">
@@ -186,7 +188,9 @@
             <span class="font-bold">Comprueba la calidad de nuestro Enxulado!</span>
           </p>
           <div class="hidden md:flex justify-start pt-6">
-            <button
+            <a
+              href="https://wa.link/v6iq4l"
+              target="_blank"
               class="hover:bg-xulada-purple-dark bg-xulada-red-intense text-white py-1 px-2 rounded-lg inline-flex items-center"
             >
               <svg
@@ -199,7 +203,7 @@
                 />
               </svg>
               <span>Quiero saber más</span>
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -243,7 +247,9 @@
                   <br />Para que te sientas seguro y cuides a los que más quieres
                 </p>
                 <div class="hidden lg:flex justify-start lg:pt-10 lg:pb-12 px-4">
-                  <button
+                  <a
+                    href="https://wa.link/nqlw6f"
+                    target="_blank"
                     class="hover:bg-xulada-purple-dark bg-xulada-blue-covid text-white py-1 px-2 rounded-lg inline-flex items-center"
                   >
                     <svg
@@ -256,13 +262,15 @@
                       />
                     </svg>
                     <span>Quiero sanitizar mi coche</span>
-                  </button>
+                  </a>
                 </div>
                 <img src="@/assets/family_couch_siloutte.png" class="mb-4 lg:hidden" alt srcset />
                 <img src="@/assets/advantages_icons_grey.png" alt srcset />
               </div>
               <div class="flex justify-center lg:hidden">
-                <button
+                <a
+                  href="https://wa.link/nqlw6f"
+                  target="_blank"
                   class="hover:bg-xulada-purple-dark bg-xulada-blue-covid text-white py-1 px-2 rounded-lg inline-flex items-center"
                 >
                   <svg
@@ -275,7 +283,7 @@
                     />
                   </svg>
                   <span>Quiero sanitizar mi coche</span>
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -321,7 +329,9 @@
                   <span class="uppercase text-2xl">MXN</span>
                 </p>
                 <p class="text-sm text-xulada-black font-normal mb-6">Sanitización COVID-19</p>
-                <button
+                <a
+                  href="https://wa.link/bo1tbn"
+                  target="_blank"
                   class="hover:bg-xulada-violete bg-xulada-black text-white py-1 px-2 rounded-lg inline-flex items-center"
                 >
                   <svg
@@ -334,7 +344,7 @@
                     />
                   </svg>
                   <span>Agendar Sanitización</span>
-                </button>
+                </a>
               </div>
             </div>
           </template>
@@ -371,7 +381,9 @@
                       <img src="@/assets/sanitization_gift_red_bubble.png" class="h-20" alt />
                     </div>
                   </div>
-                  <button
+                  <a
+                    href="https://wa.link/87dvcd"
+                    target="_blank"
                     class="hover:bg-xulada-violete bg-xulada-red-intense text-white py-1 px-2 rounded-lg inline-flex items-center"
                   >
                     <svg
@@ -384,7 +396,7 @@
                       />
                     </svg>
                     <span>Agendar ahora</span>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -418,7 +430,9 @@
                   <p>Descuento autopartes</p>
                 </div>
 
-                <button
+                <a
+                  href="https://wa.link/4kmv2h"
+                  target="_blank"
                   class="hover:bg-xulada-violete bg-xulada-black text-white py-1 px-2 rounded-lg inline-flex items-center"
                 >
                   <svg
@@ -431,7 +445,7 @@
                     />
                   </svg>
                   <span>Quiero Xulada Plus</span>
-                </button>
+                </a>
               </div>
             </div>
           </template>
@@ -572,6 +586,10 @@ export default {
 }
 
 @media only screen and (min-width: 1000px) {
+  #stories .vueperslides--fixed-height.vueperslides--bullets-outside,
+  #prices .vueperslides--fixed-height.vueperslides--bullets-outside {
+    margin-bottom: 0em;
+  }
 }
 
 @media only screen and (max-width: 750px) {
