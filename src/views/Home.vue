@@ -24,7 +24,7 @@
       </div>
       <div class="w-full sm:w-7/12">
         <div class="flex justify-center mb-5">
-          <img src="@/assets/jaguar_top_blue.png" alt srcset />
+          <img src="@/assets/jaguar_top_blue.png" class="w-full" alt srcset />
         </div>
         <div class="block">
           <button
@@ -73,7 +73,7 @@
         </div>
       </div>
       <div class="flex justify-center">
-        <img alt="Vue logo" src="@/assets/range_rover_with bubbles.png" />
+        <img alt="Vue logo" src="@/assets/range_rover_with bubbles.png" class="w-full" />
       </div>
     </div>
 
