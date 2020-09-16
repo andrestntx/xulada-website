@@ -25,7 +25,7 @@
         </div>
         <div class="md:block hidden">
           <a
-            href="https://wa.link/m7xb67"
+            href="https://wa.link/9wmsgw"
             target="_blank"
             class="bg-xulada-violete-intese hover:bg-xulada-red-intense text-white py-1 px-2 rounded-lg inline-flex items-center"
           >
@@ -189,7 +189,7 @@
           </p>
           <div class="hidden md:flex justify-start pt-6">
             <a
-              href="https://wa.link/v6iq4l"
+              href="https://wa.link/1smu99"
               target="_blank"
               class="hover:bg-xulada-purple-dark bg-xulada-red-intense text-white py-1 px-2 rounded-lg inline-flex items-center"
             >
@@ -248,7 +248,7 @@
                 </p>
                 <div class="hidden lg:flex justify-start lg:pt-10 lg:pb-12 px-4">
                   <a
-                    href="https://wa.link/nqlw6f"
+                    href="https://wa.link/pp0fqg"
                     target="_blank"
                     class="hover:bg-xulada-purple-dark bg-xulada-blue-covid text-white py-1 px-2 rounded-lg inline-flex items-center"
                   >
@@ -330,7 +330,7 @@
                 </p>
                 <p class="text-sm text-xulada-black font-normal mb-6">Sanitización COVID-19</p>
                 <a
-                  href="https://wa.link/bo1tbn"
+                  href="https://wa.link/ny5n57"
                   target="_blank"
                   class="hover:bg-xulada-violete bg-xulada-black text-white py-1 px-2 rounded-lg inline-flex items-center"
                 >
@@ -382,7 +382,7 @@
                     </div>
                   </div>
                   <a
-                    href="https://wa.link/87dvcd"
+                    href="https://wa.link/oxhur6"
                     target="_blank"
                     class="hover:bg-xulada-violete bg-xulada-red-intense text-white py-1 px-2 rounded-lg inline-flex items-center"
                   >
@@ -431,7 +431,7 @@
                 </div>
 
                 <a
-                  href="https://wa.link/4kmv2h"
+                  href="https://wa.link/6u539b"
                   target="_blank"
                   class="hover:bg-xulada-violete bg-xulada-black text-white py-1 px-2 rounded-lg inline-flex items-center"
                 >
