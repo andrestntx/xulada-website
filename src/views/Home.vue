@@ -387,7 +387,7 @@
                         <li>Enxulada exterior</li>
                         <li>Enxulada interior</li>
                         <li>Encerado</li>
-                        <li>Informe digiatal</li>
+                        <li>Informe digital</li>
                       </ul>
                     </div>
                     <div class="w-4/12">
@@ -437,10 +437,10 @@
                   <span class="uppercase text-2xl">MXN</span>
                 </p>
                 <div class="text-sm font-normal mb-4 text-xulada-black leading-5">
-                  <p>Sanitizados / MES</p>
+                  <p>2 Sanitizados / MES</p>
                   <p>2 Enxuladas completas / MES</p>
-                  <p>Diagnóstico periódico</p>
-                  <p>Descuento autopartes</p>
+                  <p>1 Diagnóstico / MES</p>
+                  <p>15% Descuento autopartes</p>
                 </div>
 
                 <a
