@@ -6,7 +6,7 @@
     >
       <div class="w-full md:w-5/12 slogan">
         <img
-          src="@/assets/logo_xulada_white.png"
+          src="@/assets/img/logo_xulada_white.png"
           alt
           class="object-contain h-26 md:h-32 lg:h-40 mx-auto mb-16"
         />
@@ -45,7 +45,7 @@
       <div class="w-full md:w-7/12">
         <div class="block mb-5 lg:mb-0">
           <img
-            src="@/assets/img/jaguar_top_blue_co.png"
+            src="@/assets/img/jaguar_top_blue_op.png"
             class="object-contain lg:w-full m-auto"
             alt
             srcset
@@ -131,7 +131,7 @@
           <template v-slot:content>
             <div class="text-white flex flex-wrap p-5 md:px-2 lg:px-6">
               <div class="w-full flex justify-center mb-5">
-                <img src="@/assets/left_circle_gear_lever.png" />
+                <img src="@/assets/img/left_circle_gear_lever.png" />
               </div>
               <div class="w-full">
                 <h3 class="text-xl mb-3 text-xulada-red-intense">Productos premium</h3>
@@ -149,7 +149,7 @@
           <template v-slot:content>
             <div class="text-white flex flex-wrap p-5 md:px-2 lg:px-6">
               <div class="w-full flex justify-center mb-5">
-                <img src="@/assets/center_circle_man_in_a_couch.png" />
+                <img src="@/assets/img/center_circle_man_in_a_couch.png" />
               </div>
               <div class="w-full">
                 <h3 class="text-xl mb-3 text-xulada-red-intense">Ahorras tiempo</h3>
@@ -169,7 +169,7 @@
           <template v-slot:content>
             <div class="text-white flex flex-wrap p-5 md:px-2 lg:px-6">
               <div class="w-full flex justify-center mb-5">
-                <img src="@/assets/rigth_circle_girl_cleaning.png" />
+                <img src="@/assets/img/rigth_circle_girl_cleaning.png" />
               </div>
               <div class="w-full">
                 <h3 class="text-xl mb-3 text-xulada-red-intense">Seguridad</h3>
@@ -222,7 +222,7 @@
       </div>
       <div class="w-full sm:w-1/2">
         <div class="flex justify-center pt-6 mb-10 lg:mb-1">
-          <img src="@/assets/red_mercedes_benz_middle.png" alt srcset />
+          <img src="@/assets/img/red_mercedes_benz_middle.png" alt srcset />
         </div>
         <div class="md:hidden flex justify-center">
           <button
@@ -278,7 +278,7 @@
                   </a>
                 </div>
                 <img src="@/assets/img/family_couch_siloutte.png" class="mb-4 lg:hidden" alt srcset />
-                <img src="@/assets/advantages_icons_grey.png" alt srcset />
+                <img src="@/assets/img/advantages_icons_grey.png" alt srcset />
               </div>
               <div class="flex justify-center lg:hidden">
                 <a
@@ -301,7 +301,7 @@
             </div>
           </div>
           <div class="hidden lg:flex w-full lg:w-7/12">
-            <img src="@/assets/img/family_couch_siloutte.webp" alt srcset />
+            <img src="@/assets/img/family_couch_siloutte.png" alt srcset />
           </div>
         </div>
       </div>
@@ -328,7 +328,7 @@
             <div class="w-full md:border-r-2 border-white">
               <div class="text-center">
                 <div class="w-full flex justify-center">
-                  <img src="@/assets/sanitization_icon_prices.png" alt />
+                  <img src="@/assets/img/sanitization_icon_prices.png" alt />
                 </div>
                 <h5 class="text-2xl text-xulada-black font-bold">Sanitización</h5>
                 <p class="pt-4 line-through price font-bold text-xulada-black leading-6">
@@ -368,7 +368,7 @@
               <div class="text-center text-white">
                 <div class="mx-10 sm:mx-2 px-2 py-6 bg-xulada-black rounded-lg">
                   <div class="w-full flex justify-center">
-                    <img src="@/assets/enxulada_full_prices.png" alt />
+                    <img src="@/assets/img/enxulada_full_prices.png" alt />
                   </div>
                   <h5 class="text-2xl font-bold">Enxulada completa</h5>
                   <p class="pt-4 line-through price font-bold text-xulada-red-intense leading-6">
@@ -391,7 +391,7 @@
                       </ul>
                     </div>
                     <div class="w-4/12">
-                      <img src="@/assets/sanitization_gift_red_bubble.png" class="h-20" alt />
+                      <img src="@/assets/img/sanitization_gift_red_bubble.png" class="h-20" alt />
                     </div>
                   </div>
                   <a
@@ -420,7 +420,7 @@
             <div class="w-full md:border-l-2 border-white">
               <div class="text-center">
                 <div class="w-full flex justify-center">
-                  <img src="@/assets/enxulada_membership_prices.png" alt />
+                  <img src="@/assets/img/enxulada_membership_prices.png" alt />
                 </div>
                 <h5 class="text-xulada-black text-2xl font-bold leading-7">
                   Membresía
@@ -469,12 +469,12 @@
     <div id="footer" class="block sm:px-20 py-6 bg-xulada-black sm:rounded-lg">
       <div class="flex flex-wrap items-center">
         <div class="w-full sm:w-1/2 lg:w-1/3 flex justify-center">
-          <img src="@/assets/xulada_biker_girl.png" class="h-32" />
+          <img src="@/assets/img/xulada_biker_girl.png" class="h-32" />
         </div>
         <div class="w-full sm:w-1/2 lg:w-1/3 flex justify-center">
           <div class="w-full sm:w-2/3">
             <div class="flex justify-center sm:mb-6 invisible sm:visible">
-              <img src="@/assets/logo_xulada_red_intense.png" class="h-10 md:h-20" />
+              <img src="@/assets/img/logo_xulada_red_intense.png" class="h-10 md:h-20" />
             </div>
             <div class="flex justify-center mb-6">
               <div class="text-white text-xs text-center sm:text-left">
@@ -594,7 +594,7 @@ export default {
 }
 
 #banner {
-  background-image: URL("../assets/top_rectangle_with_gradient_square.png");
+  background-image: URL("../assets/img/top_rectangle_with_gradient_square.png");
   background-size: cover;
 }
 
@@ -607,7 +607,7 @@ export default {
 
 @media only screen and (max-width: 750px) {
   #banner {
-    background-image: URL("../assets/violette_top_area.jpg");
+    background-image: URL("../assets/img/violette_top_area.jpg");
     background-size: cover;
   }
 }
