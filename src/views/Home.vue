@@ -102,14 +102,14 @@
       <div class="block md:hidden px-4 sm:px-12">
         <img
           alt="Xulada Services"
-          src="@/assets/range_rover_with bubbles.png"
+          src="@/assets/img/range_rover_with bubbles.png"
           class="object-contain m-auto"
         />
       </div>
       <div class="hidden md:block px-4 lg:px-6">
         <img
           alt="Xulada Services"
-          src="@/assets/range_rover_with_titles.png"
+          src="@/assets/img/range_rover_with_titles.png"
           class="object-contain m-auto"
         />
       </div>
@@ -277,7 +277,7 @@
                     <span>Quiero sanitizar mi coche</span>
                   </a>
                 </div>
-                <img src="@/assets/family_couch_siloutte.png" class="mb-4 lg:hidden" alt srcset />
+                <img src="@/assets/img/family_couch_siloutte.png" class="mb-4 lg:hidden" alt srcset />
                 <img src="@/assets/advantages_icons_grey.png" alt srcset />
               </div>
               <div class="flex justify-center lg:hidden">
