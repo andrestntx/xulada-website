@@ -45,7 +45,7 @@
       <div class="w-full md:w-7/12">
         <div class="block mb-5 lg:mb-0">
           <img
-            src="@/assets/img/jaguar_top_blue.webp"
+            src="@/assets/img/jaguar_top_blue_co.png"
             class="object-contain lg:w-full m-auto"
             alt
             srcset
