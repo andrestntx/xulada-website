@@ -44,7 +44,12 @@
       </div>
       <div class="w-full md:w-7/12">
         <div class="block mb-5 lg:mb-0">
-          <img src="@/assets/jaguar_top_blue.png" class="lg:w-full m-auto" alt srcset />
+          <img
+            src="@/assets/jaguar_top_blue.png"
+            class="object-contain lg:w-full m-auto"
+            alt
+            srcset
+          />
         </div>
         <div class="block md:hidden">
           <button
@@ -95,10 +100,18 @@
         </div>
       </div>
       <div class="block md:hidden px-4 sm:px-12">
-        <img alt="Xulada Services" src="@/assets/range_rover_with bubbles.png" class="m-auto" />
+        <img
+          alt="Xulada Services"
+          src="@/assets/range_rover_with bubbles.png"
+          class="object-contain m-auto"
+        />
       </div>
       <div class="hidden md:block px-4 lg:px-6">
-        <img alt="Xulada Services" src="@/assets/range_rover_with_titles.png" class="m-auto" />
+        <img
+          alt="Xulada Services"
+          src="@/assets/range_rover_with_titles.png"
+          class="object-contain m-auto"
+        />
       </div>
     </div>
 
