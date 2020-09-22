@@ -45,7 +45,7 @@
       <div class="w-full md:w-7/12">
         <div class="block mb-5 lg:mb-0">
           <img
-            src="@/assets/jaguar_top_blue.png"
+            src="https://lh3.googleusercontent.com/0NVxPMHYD0lBZgmZsyU-xvU74bos_VkRJs_mkjdzaG2qwINlKjqAXjc-sjL93zkN03Zx1FBvqC0NHw=w1920-h952-rw"
             class="object-contain lg:w-full m-auto"
             alt
             srcset
@@ -301,7 +301,11 @@
             </div>
           </div>
           <div class="hidden lg:flex w-full lg:w-7/12">
-            <img src="@/assets/family_couch_siloutte.png" alt srcset />
+            <img
+              src="https://lh3.googleusercontent.com/NwxroJ9FAhxM9boRbuxegqISuDZYmai4DJQVB7ze-X8JWNFErkMWRZFy5UK63S1LZNOUbRd92sq_Ig=w1920-h952-rw"
+              alt
+              srcset
+            />
           </div>
         </div>
       </div>
