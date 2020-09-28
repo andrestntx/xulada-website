@@ -19,7 +19,8 @@
               <br />
               <span
                 class="text-xl sm:text-2xl md:text-xl lg:text-3xl font-semibold"
-              >como si fuera nuestro!</span>
+                >como si fuera nuestro!</span
+              >
             </h1>
           </div>
         </div>
@@ -72,7 +73,9 @@
 
     <div id="description" class="block pt-5 sm:pt-10 lg:pt-20 pb-10">
       <div class="flex flex-wrap sm:px-20 mb-8">
-        <div class="w-full md:h-32 lg:h-40 md:w-1/2 md:border-r-3 border-xulada-violete">
+        <div
+          class="w-full md:h-32 lg:h-40 md:w-1/2 md:border-r-3 border-xulada-violete"
+        >
           <div class="flex justify-center md:justify-start lg:justify-center">
             <h2
               class="border-b-2 border-xulada-violete md:border-b-0 text-xl sm:text-3xl lg:text-4xl italic font-medium leading-5 lg:leading-7 text-center md:text-right text-xulada-violete pb-4"
@@ -81,7 +84,10 @@
               &nbsp;
               <span class="font-extrabold">Premium</span>
               <br />
-              <span class="text-base sm:text-xl text-gray-600 font-bold lg:text-2xl">para tu coche</span>
+              <span
+                class="text-base sm:text-xl text-gray-600 font-bold lg:text-2xl"
+                >para tu coche</span
+              >
             </h2>
           </div>
         </div>
@@ -94,7 +100,8 @@
               <br />
               <span
                 class="text-base sm:text-xl text-gray-600 font-bold lg:text-2xl"
-              >de tu casa u oficina</span>
+                >de tu casa u oficina</span
+              >
             </h2>
           </div>
         </div>
@@ -134,11 +141,14 @@
                 <img src="@/assets/img/left_circle_gear_lever.png" />
               </div>
               <div class="w-full">
-                <h3 class="text-xl mb-3 text-xulada-red-intense">Productos premium</h3>
+                <h3 class="text-xl mb-3 text-xulada-red-intense">
+                  Productos premium
+                </h3>
               </div>
               <div class="w-full px-6 lg:px-0">
                 <p class="text-white text-sm">
-                  Cada una de las partes de tu coche es tratado con productos especiales para protegere los materiales, la pintura y
+                  Cada una de las partes de tu coche es tratado con productos
+                  especiales para protegere los materiales, la pintura y
                   <b>generar un brillo como nuevo</b>
                 </p>
               </div>
@@ -152,12 +162,14 @@
                 <img src="@/assets/img/center_circle_man_in_a_couch.png" />
               </div>
               <div class="w-full">
-                <h3 class="text-xl mb-3 text-xulada-red-intense">Ahorras tiempo</h3>
+                <h3 class="text-xl mb-3 text-xulada-red-intense">
+                  Ahorras tiempo
+                </h3>
               </div>
               <div class="w-full px-6 lg:px-0">
                 <p class="text-white text-sm">
-                  Vamos a tu casa u oficina
-                  y enxulamos tu coche sin agua y con productos ecológicos.
+                  Vamos a tu casa u oficina y enxulamos tu coche sin agua y con
+                  productos ecológicos.
                   <br />
                   <b>No más filas y tiempos de espera!</b>
                 </p>
@@ -176,7 +188,8 @@
               </div>
               <div class="w-full px-6 lg:px-0">
                 <p class="text-white text-sm">
-                  Los datos y pefil de nuestro Enxulador Profesional te serán enviados antes de llegar a tu domicilio.
+                  Los datos y pefil de nuestro Enxulador Profesional te serán
+                  enviados antes de llegar a tu domicilio.
                   <br />
                   <b>No requerimos llaves, ni mover tu coche</b>
                 </p>
@@ -193,12 +206,19 @@
           <div class="flex justify-center sm:justify-start">
             <h3
               class="font-extrabold xs:text-center sm:text-left text-2xl lg:text-4xl font-black tracking-wider leading-7 mb-6"
-            >Atención a los detalles</h3>
+            >
+              Atención a los detalles
+            </h3>
           </div>
           <p class="text-center sm:text-left text-sm px-1 sm:pr-16 italic">
-            Limpiamos y sanitizamos cada rincón de tu coche. Al final del servicio te enviamos un informe digital donde capturamos el antes y el después de nuestro servicio premium y los detalles que encontramos en tu auto.
+            Limpiamos y sanitizamos cada rincón de tu coche. Al final del
+            servicio te enviamos un informe digital donde capturamos el antes y
+            el después de nuestro servicio premium y los detalles que
+            encontramos en tu auto.
             <br />
-            <span class="font-bold">Comprueba la calidad de nuestro Enxulado!</span>
+            <span class="font-bold"
+              >Comprueba la calidad de nuestro Enxulado!</span
+            >
           </p>
           <div class="hidden md:flex justify-start pt-6">
             <a
@@ -246,20 +266,27 @@
     <div id="covid" class="block px-6 sm:px-20 py-8 lg:pb-4 bg-xulada-gray">
       <h3
         class="text-normal sm:text-xl md:text-2xl lg:text-4xl text-center lg:text-right italic text-gray-700 uppercase font-extrabold tracking-wider mb-4 lg:mb-0"
-      >Tu coche libre de covid-19</h3>
+      >
+        Tu coche libre de covid-19
+      </h3>
       <div class="w-full">
         <div class="flex flex-row-reverse lg:items-center">
           <div class="flex w-full lg:w-5/12">
             <div class="block px-5 lg:px-12">
               <div class="block mb-6">
-                <p class="text-center lg:text-left italic text-sm md:text-base lg:text-lg px-4">
+                <p
+                  class="text-center lg:text-left italic text-sm md:text-base lg:text-lg px-4"
+                >
                   Nuestro servicio incluye
-                  <span
-                    class="uppercase font-bold"
-                  >sanitización y desinfección de tu coche</span>
-                  <br />Para que te sientas seguro y cuides a los que más quieres
+                  <span class="uppercase font-bold"
+                    >sanitización y desinfección de tu coche</span
+                  >
+                  <br />Para que te sientas seguro y cuides a los que más
+                  quieres
                 </p>
-                <div class="hidden lg:flex justify-start lg:pt-10 lg:pb-12 px-4">
+                <div
+                  class="hidden lg:flex justify-start lg:pt-10 lg:pb-12 px-4"
+                >
                   <a
                     href="https://wa.link/pp0fqg"
                     target="_blank"
@@ -277,7 +304,12 @@
                     <span>Quiero sanitizar mi coche</span>
                   </a>
                 </div>
-                <img src="@/assets/img/family_couch_siloutte.png" class="mb-4 lg:hidden" alt srcset />
+                <img
+                  src="@/assets/img/family_couch_siloutte.png"
+                  class="mb-4 lg:hidden"
+                  alt
+                  srcset
+                />
                 <img src="@/assets/img/advantages_icons_grey.png" alt srcset />
               </div>
               <div class="flex justify-center lg:hidden">
@@ -307,10 +339,15 @@
       </div>
     </div>
 
-    <div id="prices" class="bg-xulada-red-intense block py-4 md:px-20 sm:rounded-lg">
+    <div
+      id="prices"
+      class="bg-xulada-red-intense block py-4 md:px-20 sm:rounded-lg"
+    >
       <h4
         class="text-center text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl uppercase font-extrabold mb-8"
-      >Nuestros paquetes</h4>
+      >
+        Nuestros paquetes
+      </h4>
       <vueper-slides
         class="no-shadow ex--show-multiple-slides-and-gap"
         :breakpoints="breakpoints_prices"
@@ -330,18 +367,24 @@
                 <div class="w-full flex justify-center">
                   <img src="@/assets/img/sanitization_icon_prices.png" alt />
                 </div>
-                <h5 class="text-2xl text-xulada-black font-bold">Sanitización</h5>
-                <p class="pt-4 line-through price font-bold text-xulada-black leading-6">
+                <h5 class="text-2xl text-xulada-black font-bold">
+                  Sanitización
+                </h5>
+                <p
+                  class="pt-4 line-through price font-bold text-xulada-black leading-6"
+                >
                   <span class="text-xl">$</span>
-                  <span class="text-5xl">200</span>
+                  <span class="text-5xl">250</span>
                   <span class="uppercase text-xl">MXN</span>
                 </p>
                 <p class="price font-bold text-white leading-tight">
                   <span class="text-2xl">$</span>
-                  <span class="text-6xl sm:text-7xl md:text-8xl">150</span>
+                  <span class="text-6xl sm:text-7xl md:text-8xl">200</span>
                   <span class="uppercase text-2xl">MXN</span>
                 </p>
-                <p class="text-sm text-xulada-black font-normal mb-6">Sanitización COVID-19</p>
+                <p class="text-sm text-xulada-black font-normal mb-6">
+                  Sanitización COVID-19
+                </p>
                 <a
                   href="https://wa.link/ny5n57"
                   target="_blank"
@@ -371,7 +414,9 @@
                     <img src="@/assets/img/enxulada_full_prices.png" alt />
                   </div>
                   <h5 class="text-2xl font-bold">Enxulada completa</h5>
-                  <p class="pt-4 line-through price font-bold text-xulada-red-intense leading-6">
+                  <p
+                    class="pt-4 line-through price font-bold text-xulada-red-intense leading-6"
+                  >
                     <span class="text-xl">$</span>
                     <span class="text-5xl">320</span>
                     <span class="uppercase text-xl">MXN</span>
@@ -391,7 +436,11 @@
                       </ul>
                     </div>
                     <div class="w-4/12">
-                      <img src="@/assets/img/sanitization_gift_red_bubble.png" class="h-20" alt />
+                      <img
+                        src="@/assets/img/sanitization_gift_red_bubble.png"
+                        class="h-20"
+                        alt
+                      />
                     </div>
                   </div>
                   <a
@@ -426,7 +475,9 @@
                   Membresía
                   <br />Xulada Plus
                 </h5>
-                <p class="pt-4 line-through price font-bold text-xulada-black leading-6">
+                <p
+                  class="pt-4 line-through price font-bold text-xulada-black leading-6"
+                >
                   <span class="text-xl">$</span>
                   <span class="text-5xl">900</span>
                   <span class="uppercase text-xl">MXN</span>
@@ -436,7 +487,9 @@
                   <span class="text-6xl sm:text-7xl md:text-8xl">700</span>
                   <span class="uppercase text-2xl">MXN</span>
                 </p>
-                <div class="text-sm font-normal mb-4 text-xulada-black leading-5">
+                <div
+                  class="text-sm font-normal mb-4 text-xulada-black leading-5"
+                >
                   <p>2 Sanitizados / MES</p>
                   <p>2 Enxuladas completas / MES</p>
                   <p>1 Diagnóstico / MES</p>
@@ -474,7 +527,10 @@
         <div class="w-full sm:w-1/2 lg:w-1/3 flex justify-center">
           <div class="w-full sm:w-2/3">
             <div class="flex justify-center sm:mb-6 invisible sm:visible">
-              <img src="@/assets/img/logo_xulada_red_intense.png" class="h-10 md:h-20" />
+              <img
+                src="@/assets/img/logo_xulada_red_intense.png"
+                class="h-10 md:h-20"
+              />
             </div>
             <div class="flex justify-center mb-6">
               <div class="text-white text-xs text-center sm:text-left">
