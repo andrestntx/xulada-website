@@ -6,6 +6,7 @@
         fixed-height="450px"
         :visible-slides="1"
         :autoplay="true"
+        :touchable="false"
       >
         <vueper-slide :image="gallery.bg2">
           <template v-slot:content>
@@ -64,11 +65,8 @@
                   >
                 </h2>
               </div>
-              <div class="w-full lg:w-1/2 flex justify-center mb-5">
-                <img
-                  src="@/assets/img/volvo_xc90.png"
-                  class="w-11/12 mx-auto"
-                />
+              <div class="flex justify-center mb-5 w-11/12 mx-auto">
+                <img src="@/assets/img/volvo_xc90.png" class="object-contain" />
               </div>
               <div class="w-full lg:hidden">
                 <h2 class="text-2xl text-center px-8 font-bold leading-none">
