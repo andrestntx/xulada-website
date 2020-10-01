@@ -131,58 +131,21 @@
       >
         <vueper-slide :image="gallery.bg1">
           <template v-slot:content>
-            <div class="hidden lg:block">
-              <div class="w-7/12 text-white py-20 absolute top-0 left-0 z-10">
-                <h1
-                  class="text-2xl uppercase text-center font-bold italic px-4 pb-4 leading-snug lg:leading-tight lg:text-4.5xl lg:text-left lg:pl-24 lg:tracking-wider"
-                >
-                  Sanitización de tu auto
-                  <span class="lg:text-3xl block"> a domicilio en CDMX</span>
-                </h1>
-                <h2
-                  class="hidden lg:block pl-24 pt-24 text-3xl text-left px-8 font-bold leading-none tracking-wide"
-                >
-                  Viaja tranquilo en <br />
-                  <span class="uppercase font-normal text-2.5xl tracking-wider"
-                    >tu coche libre de covid</span
-                  >
-                </h2>
+            <div class="text-white flex flex-wrap p-5 md:px-2 lg:px-6">
+              <div class="w-full flex justify-center mb-5">
+                <img src="@/assets/img/left_circle_gear_lever.png" />
               </div>
-              <img
-                src="@/assets/img/volvo_xc90.png"
-                class="w-7/12 float-right mr-16 mt-16 absolute top-0 right-0"
-                alt=""
-              />
-            </div>
-            <div
-              class="text-white flex lg:hidden flex-wrap pt-12 lg:pt-20 md:px-2 lg:px-6"
-            >
-              <div class="w-full lg:w-1/2">
-                <h1
-                  class="text-2xl uppercase text-center font-bold italic px-1 pb-4 leading-snug lg:leading-tight lg:text-4xl lg:text-left lg:pl-16 lg:tracking-wide"
-                >
-                  Sanitización de tu auto
-                  <span class="lg:text-2xl block"> a domicilio en CDMX</span>
-                </h1>
-                <h2
-                  class="hidden lg:block pl-16 pt-24 text-3xl text-left px-8 font-bold leading-none"
-                >
-                  Viaja tranquilo en <br />
-                  <span class="uppercase font-normal text-2xl tracking-wide"
-                    >tu coche libre de covid</span
-                  >
-                </h2>
+              <div class="w-full">
+                <h3 class="text-xl mb-3 text-xulada-red-intense">
+                  Productos premium
+                </h3>
               </div>
-              <div class="flex justify-center mb-5 w-11/12 mx-auto">
-                <img src="@/assets/img/volvo_xc90.png" class="object-contain" />
-              </div>
-              <div class="w-full lg:hidden">
-                <h2 class="text-2xl text-center px-8 font-bold leading-none">
-                  Viaja tranquilo en <br />
-                  <span class="uppercase font-normal text-xl"
-                    >tu coche libre de covid</span
-                  >
-                </h2>
+              <div class="w-full px-6 lg:px-0">
+                <p class="text-white text-sm">
+                  Cada una de las partes de tu coche es tratado con productos
+                  especiales para proteger los materiales, la pintura y
+                  <b>generar un brillo como nuevo</b>
+                </p>
               </div>
             </div>
           </template>
