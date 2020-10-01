@@ -3,8 +3,15 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
+        "2.5xl": "1.75rem",
+        "3.5xl": "2.1rem",
+        "4.5xl": "2.5rem",
         "7xl": "5rem",
         "8xl": "5.4rem",
+      },
+      opacity: {
+        "90": "0.9",
+        "95": "0.95",
       },
       colors: {
         xulada: {

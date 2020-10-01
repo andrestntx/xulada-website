@@ -1,6 +1,15 @@
 <template>
-  <div id="app" class="container mx-auto">
-    <router-view />
+  <div id="app" class="flex flex-col h-screen">
+    <header class="">
+      <Nav class="container mx-auto" />
+    </header>
+
+    <div id="content" class="flex-1 overflow-y-auto">
+      <main>
+        <div class="container mx-auto"><router-view /></div>
+      </main>
+      <Footer class="container mx-auto" />
+    </div>
   </div>
 </template>
 
@@ -29,10 +38,12 @@
 
 <script>
 // @ is an alias to /src
+import Footer from "./components/Footer.vue";
+import Nav from "./components/Nav.vue";
 
 export default {
   name: "App",
-  components: {},
+  components: { Footer, Nav },
 };
 </script>
 
