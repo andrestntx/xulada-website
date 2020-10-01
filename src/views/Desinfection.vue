@@ -8,7 +8,7 @@
         :autoplay="true"
         :touchable="false"
       >
-        <vueper-slide :image="gallery.bg1">
+        <vueper-slide>
           <template v-slot:content>
             <div class="hidden lg:block">
               <div class="w-7/12 text-white py-20 absolute top-0 left-0 z-10">
@@ -66,7 +66,7 @@
             </div>
           </template>
         </vueper-slide>
-        <vueper-slide :image="gallery.bg2">
+        <vueper-slide>
           <template v-slot:content>
             <div
               class="text-white flex flex-wrap flex-row-reverse px-5 pt-12 lg:px-32"
