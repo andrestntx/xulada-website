@@ -133,7 +133,7 @@
           <template v-slot:content>
             <div class="text-white flex flex-wrap p-5 md:px-2 lg:px-6">
               <div class="w-full flex justify-center mb-5">
-                <img src="@/assets/img/volvo_xc90.png" />
+                <img src="@/assets/img/volvo_xc90.png" class="h-40" />
               </div>
               <div class="w-full">
                 <h3 class="text-xl mb-3 text-xulada-red-intense">
