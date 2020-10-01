@@ -7,7 +7,7 @@
         :visible-slides="1"
         :touchable="false"
       >
-        <vueper-slide>
+        <vueper-slide :image="gallery.bg1">
           <template v-slot:content>
             <div class="hidden lg:block">
               <div class="w-7/12 text-white py-20 absolute top-0 left-0 z-10">
@@ -52,7 +52,7 @@
                 </h2>
               </div>
               <div class="flex justify-center mb-5 w-11/12 mx-auto">
-                <img src="@/assets/img/volvo_xc90.png" class="object-contain" />
+                <img src="@/assets/img/volvo_xc90.png" class="h-40" />
               </div>
               <div class="w-full lg:hidden">
                 <h2 class="text-2xl text-center px-8 font-bold leading-none">
@@ -65,7 +65,7 @@
             </div>
           </template>
         </vueper-slide>
-        <vueper-slide>
+        <vueper-slide :image="gallery.bg2">
           <template v-slot:content>
             <div
               class="text-white flex flex-wrap flex-row-reverse px-5 pt-12 lg:px-32"
@@ -75,13 +75,9 @@
               >
                 Tu auto libre <br />de covid-19
               </h1>
-              <div class="flex justify-center mb-5 w-11/12 mx-auto">
-                <img src="@/assets/img/volvo_xc90.png" class="object-contain" />
-              </div>
             </div>
           </template>
         </vueper-slide>
-
         <vueper-slide>
           <template v-slot:content>
             <div
@@ -109,7 +105,7 @@
               <div class="w-full lg:w-5/12 flex justify-center mb-5">
                 <img
                   src="@/assets/img/family_couch_siloutte.png"
-                  class="w-full m-auto"
+                  class="lg:w-full m-auto h-64 lg:h-auto"
                 />
               </div>
             </div>
