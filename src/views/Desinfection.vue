@@ -5,7 +5,6 @@
         class="no-shadow"
         fixed-height="450px"
         :visible-slides="1"
-        :autoplay="true"
         :touchable="false"
       >
         <vueper-slide>
@@ -112,6 +111,83 @@
                   src="@/assets/img/family_couch_siloutte.png"
                   class="w-full m-auto"
                 />
+              </div>
+            </div>
+          </template>
+        </vueper-slide>
+      </vueper-slides>
+    </div>
+
+    <div id="stories" class="bg-xulada-black block py-3 md:px-20 sm:rounded-lg">
+      <vueper-slides
+        class="no-shadow ex--show-multiple-slides-and-gap"
+        fixed-height="400px"
+        :visible-slides="1"
+        :bullets-outside="true"
+        :bullets="true"
+        :gap="3"
+        :dragging-distance="20"
+        :arrows="true"
+      >
+        <vueper-slide>
+          <template v-slot:content>
+            <div class="text-white flex flex-wrap p-5 md:px-2 lg:px-6">
+              <div class="w-full flex justify-center mb-5">
+                <img src="@/assets/img/left_circle_gear_lever.png" />
+              </div>
+              <div class="w-full">
+                <h3 class="text-xl mb-3 text-xulada-red-intense">
+                  Productos premium
+                </h3>
+              </div>
+              <div class="w-full px-6 lg:px-0">
+                <p class="text-white text-sm">
+                  Cada una de las partes de tu coche es tratado con productos
+                  especiales para proteger los materiales, la pintura y
+                  <b>generar un brillo como nuevo</b>
+                </p>
+              </div>
+            </div>
+          </template>
+        </vueper-slide>
+        <vueper-slide>
+          <template v-slot:content>
+            <div class="text-white flex flex-wrap p-5 md:px-2 lg:px-6">
+              <div class="w-full flex justify-center mb-5">
+                <img src="@/assets/img/center_circle_man_in_a_couch.png" />
+              </div>
+              <div class="w-full">
+                <h3 class="text-xl mb-3 text-xulada-red-intense">
+                  Ahorras tiempo
+                </h3>
+              </div>
+              <div class="w-full px-6 lg:px-0">
+                <p class="text-white text-sm">
+                  Vamos a tu casa u oficina y enxulamos tu coche sin agua y con
+                  productos ecológicos.
+                  <br />
+                  <b>No más filas y tiempos de espera!</b>
+                </p>
+              </div>
+            </div>
+          </template>
+        </vueper-slide>
+        <vueper-slide>
+          <template v-slot:content>
+            <div class="text-white flex flex-wrap p-5 md:px-2 lg:px-6">
+              <div class="w-full flex justify-center mb-5">
+                <img src="@/assets/img/rigth_circle_girl_cleaning.png" />
+              </div>
+              <div class="w-full">
+                <h3 class="text-xl mb-3 text-xulada-red-intense">Seguridad</h3>
+              </div>
+              <div class="w-full px-6 lg:px-0">
+                <p class="text-white text-sm">
+                  Los datos y pefil de nuestro Enxulador Profesional te serán
+                  enviados antes de llegar a tu domicilio.
+                  <br />
+                  <b>No requerimos llaves, ni mover tu coche</b>
+                </p>
               </div>
             </div>
           </template>
