@@ -14,15 +14,15 @@
 <script>
 export default {
   data() {
-    return {
-      isOpen: false,
-    };
+    return {};
+  },
+  props: {
+    isOpen: Boolean,
   },
   methods: {
     toggle() {
-      this.isOpen = !this.isOpen;
-      console.log("burgerClick", this.isOpen);
-      this.$emit("burgerClick", this.isOpen);
+      console.log("burgerClick");
+      this.$emit("burgerClick", this.isOpen, !this.isOpen);
     },
   },
 };

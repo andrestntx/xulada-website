@@ -50,7 +50,7 @@
         </ul>
       </div>
       <div class="w-1/3 lg:hidden flex flex-row-reverse">
-        <Burger @burgerClick="toggleMenu" />
+        <Burger :isOpen="isOpen" @burgerClick="toggleMenu" />
       </div>
       <div class="w-2/12 hidden lg:flex flex-row-reverse justify-center">
         <div class="text-gray-800 text-xl py-4">
@@ -88,6 +88,7 @@
             v-for="item in menuItems"
             :key="item.key"
             class="text-xl py-4 border-b text-white font-semibold"
+            @click="toggleMenu"
           >
             <router-link :to="item.to" :class="{ 'active-menu': item.active }">
               {{ item.title }}</router-link
@@ -154,8 +155,9 @@ export default {
     };
   },
   methods: {
-    toggleMenu(isOpen) {
-      this.isOpen = isOpen;
+    toggleMenu() {
+      console.log("toggleMenu");
+      this.isOpen = !this.isOpen;
     },
   },
 };
