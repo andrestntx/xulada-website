@@ -8,19 +8,6 @@
         :gap="3"
         :dragging-distance="20"
       >
-        <vueper-slide :image="gallery.bg2">
-          <template v-slot:content>
-            <div
-              class="text-white flex flex-wrap flex-row-reverse px-5 pt-12 lg:px-32"
-            >
-              <h1
-                class="text-2xl lg:text-4xl lg:tracking-wider lg:py-1 lg:leading-tight bg-xulada-violete-intese bg-opacity-75 pb-1 px-10 uppercase rounded-lg font-bold text-right italic"
-              >
-                Tu auto libre <br />de covid-19
-              </h1>
-            </div>
-          </template>
-        </vueper-slide>
         <vueper-slide :image="gallery.bg1">
           <template v-slot:content>
             <div class="hidden lg:block">
@@ -76,6 +63,19 @@
                   >
                 </h2>
               </div>
+            </div>
+          </template>
+        </vueper-slide>
+        <vueper-slide :image="gallery.bg2">
+          <template v-slot:content>
+            <div
+              class="text-white flex flex-wrap flex-row-reverse px-5 pt-12 lg:px-32"
+            >
+              <h1
+                class="text-2xl lg:text-4xl lg:tracking-wider lg:py-1 lg:leading-tight bg-xulada-violete-intese bg-opacity-75 pb-1 px-10 uppercase rounded-lg font-bold text-right italic"
+              >
+                Tu auto libre <br />de covid-19
+              </h1>
             </div>
           </template>
         </vueper-slide>
@@ -249,8 +249,9 @@
         :bullets="false"
         :gap="3"
         :dragging-distance="20"
-        :arrows="false"
-        :init-slide="2"
+        :arrows="true"
+        :arrows-outside="false"
+        :init-slide="1"
       >
         <vueper-slide>
           <template v-slot:content>

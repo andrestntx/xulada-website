@@ -2,7 +2,7 @@
   <div>
     <nav
       :class="{ 'active-menu': isOpen }"
-      class="border-b-2 shadow-xl flex items-center justify-between flex-wrap bg-white px-4 py-2"
+      class="border-b-2 shadow-xl flex items-center justify-between flex-wrap bg-white px-4 py-1"
     >
       <div class="w-1/3 flex flex-row lg:hidden">
         <a
@@ -27,13 +27,13 @@
           v-show="!isOpen"
           src="@/assets/img/logo_xulada_color.png"
           alt
-          class="object-contain h-16 mx-auto"
+          class="object-contain h-12 mx-auto"
         />
         <img
           v-show="isOpen"
           src="@/assets/img/logo_xulada_white.png"
           alt
-          class="object-contain h-16 mx-auto"
+          class="object-contain h-12 mx-auto"
         />
       </div>
       <div class="hidden lg:flex lg:w-8/12">
@@ -54,7 +54,7 @@
       </div>
       <div class="w-2/12 hidden lg:flex flex-row-reverse justify-center">
         <div class="text-gray-800 text-xl py-4">
-          <p class="text-base">Agenda tu sanitización</p>
+          <p class="text-base">Agenda tu servicio</p>
           <a
             href="https://api.whatsapp.com/send?phone=525621735330&lang=es"
             target="_blank"

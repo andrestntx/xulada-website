@@ -39,6 +39,11 @@ body {
   height: 60px;
 }
 
+#prices .vueperslides__arrows button svg {
+  color: white;
+  height: 70px;
+}
+
 #sell-gallery .vueperslides__bullet--active .default {
   background-color: #f646d7;
 }
