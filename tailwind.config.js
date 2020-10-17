@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
+        "1.8xl": "1.4em",
         "2.5xl": "1.75rem",
         "3.5xl": "2.1rem",
         "4.5xl": "2.5rem",

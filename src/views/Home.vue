@@ -61,7 +61,7 @@
         </div>
         <div class="md:hidden block mb-8">
           <h1
-            class="text-white text-center lg:text-right text-2xl sm:text-3xl md:text-2xl lg:text-4xl font-extrabold tracking-wide leading-7 sm:leading-7"
+            class="text-white text-center lg:text-right text-1.8xl sm:text-3xl md:text-2xl lg:text-4xl font-extrabold tracking-wide leading-7 sm:leading-7"
           >
             Limpieza especializada <br />
             para tu coche a domicilio <br />
@@ -426,7 +426,7 @@
           <template v-slot:content>
             <div class="w-full">
               <div class="text-center text-white">
-                <div class="mx-10 sm:mx-2 px-2 py-6 bg-xulada-black rounded-lg">
+                <div class="mx-8 sm:mx-2 px-2 py-6 bg-xulada-black rounded-lg">
                   <div class="w-full flex justify-center">
                     <img src="@/assets/img/enxulada_full_prices.png" alt />
                   </div>
