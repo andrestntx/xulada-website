@@ -85,7 +85,7 @@
               />
             </svg>
             <span>agenda tu enxulada</span>
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -265,8 +265,8 @@
         </div>
         <div class="md:hidden flex justify-center">
           <a
-              href="https://wa.link/1smu99"
-              target="_blank"
+            href="https://wa.link/1smu99"
+            target="_blank"
             class="hover:bg-xulada-purple-dark bg-xulada-red-intense text-white py-1 px-2 rounded-lg inline-flex items-center"
           >
             <svg
@@ -279,7 +279,7 @@
               />
             </svg>
             <span>Quiero saber más</span>
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -325,7 +325,7 @@
               </div>
               <div class="flex justify-center lg:hidden">
                 <router-link
-                    to="/sanitizacion"
+                  to="/sanitizacion"
                   class="hover:bg-xulada-purple-dark bg-xulada-blue-covid text-white py-1 px-2 rounded-lg inline-flex items-center"
                 >
                   <svg
