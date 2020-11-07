@@ -97,7 +97,7 @@
         </ul>
 
         <div class="text-white text-xl py-4">
-          <p class="text-base">Agenda tu sanitización</p>
+          <p class="text-base">Agenda tu servicio</p>
           <a
             href="https://api.whatsapp.com/send?phone=525621735330&lang=es"
             target="_blank"
