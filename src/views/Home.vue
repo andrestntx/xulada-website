@@ -70,7 +70,9 @@
         </div>
 
         <div class="block md:hidden">
-          <button
+          <a
+            href="https://wa.link/9wmsgw"
+            target="_blank"
             class="bg-xulada-violete-intese hover:bg-xulada-red-intense text-white py-1 px-2 rounded-lg inline-flex items-center"
           >
             <svg
@@ -262,7 +264,9 @@
           <img src="@/assets/img/red_mercedes_benz_middle.png" alt srcset />
         </div>
         <div class="md:hidden flex justify-center">
-          <button
+          <a
+              href="https://wa.link/1smu99"
+              target="_blank"
             class="hover:bg-xulada-purple-dark bg-xulada-red-intense text-white py-1 px-2 rounded-lg inline-flex items-center"
           >
             <svg
@@ -320,9 +324,8 @@
                 <img src="@/assets/img/advantages_icons_grey.png" alt srcset />
               </div>
               <div class="flex justify-center lg:hidden">
-                <a
-                  href="https://wa.link/nqlw6f"
-                  target="_blank"
+                <router-link
+                    to="/sanitizacion"
                   class="hover:bg-xulada-purple-dark bg-xulada-blue-covid text-white py-1 px-2 rounded-lg inline-flex items-center"
                 >
                   <svg
@@ -335,7 +338,7 @@
                     />
                   </svg>
                   <span>Quiero sanitizar mi coche</span>
-                </a>
+                </router-link>
               </div>
             </div>
           </div>
